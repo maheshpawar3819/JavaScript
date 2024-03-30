@@ -31,10 +31,10 @@ else{
 let year=2024;
 
 if((year%4===0 && year%100!==0) || year%400===0){
-    console.log(`Q3 Ans --> ${year} Is a Leap Year`);
+    console.log(`Q3 Ans--> ${year} Is a Leap Year`);
 }
 else{
-    console.log(`Q3 Ans --> ${year} Is not a Leap Year`);
+    console.log(`Q3 Ans--> ${year} Is not a Leap Year`);
 }
 
 
@@ -43,20 +43,47 @@ else{
 let marks=40;
 
 if(marks>=90){
-    console.log("Grade A");
+    console.log("Q4 Ans--> Grade A");
 }
 else if(marks>=70){
-    console.log("Grade B");
+    console.log("Q4 Ans--> Grade B");
 }
 else if(marks>=50){
-    console.log("Grade C")
+    console.log("Q4 Ans--> Grade C")
 }
 else if(marks>=35){
-    console.log("Grade D");
+    console.log("Q4 Ans--> Grade D");
 }
 else if(marks<35){
-    console.log("Fail");
+    console.log("Q4 Ans--> Fail");
 }
 else{
-    console.log("Plese enter valid number");
+    console.log("Q4 Ans--> Plese enter valid number");
+}
+
+// Checking if a given number is even or odd.
+
+let num=10;
+
+if(num%2===0){
+    console.log(`Q5 Ans--> ${num} is Even`);
+}
+else{
+    console.log(`Q5 Ans--> ${num} is Odd`)
+}
+
+// Determining the type of a triangle based on its sides.
+
+let triangleside1=5;
+let triangleside2=5;
+let triangleside3=5;
+
+if(triangleside1===triangleside2 && triangleside2===triangleside3){
+    console.log("Q6 Equilateral Triangle");
+}
+else if(triangleside1===triangleside2 || triangleside2===triangleside3 || triangleside3===triangleside1){
+    console.log("Q6 Isosceies Triangle");
+}
+else{
+    console.log("Q6 Science Triangle");
 }
