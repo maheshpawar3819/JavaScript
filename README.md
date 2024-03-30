@@ -1,7 +1,7 @@
 # JavaScript
 This Repository Contain all JS practice code
 <br>
-add Files
+add Files (in work/class homework)
 <br>
 1.write program in js to find maximum between 3 numbers.
 <br>
