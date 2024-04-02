@@ -9,5 +9,7 @@ add Files (in work/class homework)
 <br>
 3.write in js if the alphabet is vowel or consonant.
 <br>
-4.wrute in js using switchcase to print which day of the month it is.
+4.write in js using switchcase to print which day of the month it is.
+<br>
+5.
 
