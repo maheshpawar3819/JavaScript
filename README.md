@@ -11,5 +11,13 @@ add Files (in work/class homework)
 <br>
 4.write in js using switchcase to print which day of the month it is.
 <br>
-5.
-
+5.write a js program to calculate the power of x raised to y.
+<br>
+6.Write a program in js to calculate the hcf of two numbers.
+<br>
+7.Write a program in js to calculate the factorial of a number.
+<br>
+8.Write a program in js to calculate the sum of the series  9+99+999+9999 .... n.
+<br>
+9.Write a program to check whether a number is Armstrong or not.
+Example: 153 :  1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153.
