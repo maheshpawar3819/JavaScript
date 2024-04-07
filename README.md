@@ -21,3 +21,15 @@ add Files (in work/class homework)
 <br>
 9.Write a program to check whether a number is Armstrong or not.
 Example: 153 :  1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153.
+<br>
+live class questions.
+<br>
+10.write a program in j/s to check if a string contains only digits.
+<br>
+11.write a program in j/s to count number of vovels present in a string.
+<br>
+12.write a program in j/s to print pattern star triangle pattern.
+<br>
+13.write a program in j/s to check wether the number is power of two or not.
+<br>
+14.write a program in j/s to validate if are string all capital characters or not.
