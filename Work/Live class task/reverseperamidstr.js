@@ -1,6 +1,6 @@
 //generate reverse reverse peramid star pattern
 
-let num = 3;
+let num = 5;
 
 for (let i = num; i >= 1; i--) {
   let str = "";
