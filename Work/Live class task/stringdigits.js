@@ -3,5 +3,5 @@
 var str = "mahi";
 var digits = /^\d+$/.test(str);
 
-console.log(digits); // Output: true
+console.log(digits); 
 
