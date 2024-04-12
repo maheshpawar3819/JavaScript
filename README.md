@@ -24,7 +24,7 @@ Example: 153 :  1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153.
 <br>
 live class questions.
 <br>
-10.write a program in j/s to check if a string contains only digits.
+10. 
 <br>
 11.write a program in j/s to count number of vovels present in a string.
 <br>
@@ -33,3 +33,5 @@ live class questions.
 13.write a program in j/s to check wether the number is power of two or not.
 <br>
 14.write a program in j/s to validate if are string all capital characters or not.
+<br>
+15.create a peramid star and reverse peramid star pattern in sigle program
