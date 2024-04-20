@@ -22,9 +22,7 @@ add Files (in work/class homework)
 9.Write a program to check whether a number is Armstrong or not.
 Example: 153 :  1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153.
 <br>
-live class questions.
-<br>
-10. 
+10. Write a program using a loop to check whether a given number is a palindrome or not.
 <br>
 11.write a program in j/s to count number of vovels present in a string.
 <br>
@@ -35,3 +33,19 @@ live class questions.
 14.write a program in j/s to validate if are string all capital characters or not.
 <br>
 15.create a peramid star and reverse peramid star pattern in sigle program
+<br>
+16.Check if a string contains only digits (numbers).
+<br>
+17.Count the number of vowels in a string.
+<br>
+18.Check if a number is prime or not using functions.
+<br>
+19.Validate if a string consists of all capital letters (ignoring spaces).
+<br>
+20.Check if a number is prime or not using functions.
+<br>
+21.Generate the Fibonacci series.
+<br>
+22.Write a JavaScript program to remove duplicate elements from the array.
+<br>
+23.JavaScript program to flatten this nested array into a single-dimensional array.`
