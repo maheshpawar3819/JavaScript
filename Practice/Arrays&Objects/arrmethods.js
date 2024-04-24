@@ -23,3 +23,19 @@ arr.pop();
 //add new 
 arr.push("mrunal","pratiksha")
 console.log(arr);
+
+// console.log(arr.length);
+
+//practice indexof() and includes()
+
+console.log(arr.indexOf("ashwini"));
+console.log(arr.indexOf("kiran"));
+console.log(arr.includes("neha"));
+//original array will be change because arrays are mutable in nature.
+console.log(arr.includes("mahesh"));
+
+//reverse method it will reverse whole array change original array
+
+arr.reverse();
+console.log(arr);
+
