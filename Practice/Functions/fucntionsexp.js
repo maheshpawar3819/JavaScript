@@ -12,4 +12,5 @@ let sub=function(n1,n2){
 }
 
 // console.log(sub(20,10));
+//calling two functions and make their addition
 console.log(sum(10,10)+sub(20,10));
