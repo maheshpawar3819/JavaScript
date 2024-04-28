@@ -13,3 +13,8 @@ setTimeout(() => {
 
 console.log("Hii Balram");
 console.log(50);
+
+// let id= setInterval(() => {
+//   console.log("hii mahi");
+// }, 3000);
+
