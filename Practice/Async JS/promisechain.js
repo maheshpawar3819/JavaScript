@@ -4,29 +4,35 @@ function savedb(data) {
   return new Promise((resolve, reject) => {
     let netspeed = Math.floor(Math.random() * 10) + 1;
     if (netspeed > 4) {
-      resolve("success: promise was resolved");
+      resolve("success: your data saved successfully");
     } else {
-      reject("fail:promise was rejected");
+      reject("fail:internet speed is very slow");
     }
   });
 }
 
 savedb("hii mahesh")
-  .then(() => {
+  .then((result) => {
     console.log("data 1 saved");
+    console.log(result);
     return savedb("21 years old");
   })
-  .then(() => {
+  .then((result) => {
     console.log("data 2 saved");
+    console.log(result);
     return savedb("unmarrid");
   })
-  .then(() => {
+  .then((result) => {
     console.log("data 3 saved");
+    console.log(result);
     return savedb("graduated");
   })
-  .then(() => {
+  .then((result) => {
     console.log("data 4 saved");
+    console.log(result);
+    console.log("Your all information saved successfully");
   })
-  .catch(() => {
+  .catch((error) => {
     console.log("promise was rejected");
+    console.log(error);
   });
