@@ -11,4 +11,13 @@ function savedb(data){
     })
 }
 
-console.log(savedb("hii mahi"));
+ let result=savedb("hii mahi")
+.then(() => {
+    console.log("promise resolved");
+    //you can also print promise here
+    // console.log(result);
+})
+.catch(() => {
+     console.log("promise rejected");
+    // console.log(result);
+})
