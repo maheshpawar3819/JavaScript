@@ -22,12 +22,10 @@ let students = [
   { name: "apurva", mark: 82 },
 ];
 // console.log(students);
+//lets count GPA of every student with using map() method.
 
-let criteria=students.map((ele)=> {
-    if(ele.mark>90){
-        return ele;
-    }
+let gpa=students.map((ele) => {
+    return ele.mark/10;
 })
-console.log(criteria);
-//because of map() method create similar length of new array those student will not in criteria for their it will print undefined.
+console.log(gpa);
 
