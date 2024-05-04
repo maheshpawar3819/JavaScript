@@ -45,4 +45,10 @@ button:hover{
     background-color: rgba(255, 170, 13, 0.817);
 }
 
+#result{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
 
