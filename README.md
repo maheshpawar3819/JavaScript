@@ -48,4 +48,6 @@ Example: 153 :  1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153.
 <br>
 22.Write a JavaScript program to remove duplicate elements from the array.
 <br>
-23.JavaScript program to flatten this nested array into a single-dimensional array.`
+23.JavaScript program to flatten this nested array into a single-dimensional array.
+<br>
+Add Mini Project Folder: in this folder store all mini project.
