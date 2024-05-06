@@ -12,4 +12,6 @@ function check(num){
    let ans=array.indexOf(num);
    console.log(ans);
 }
-check(10);
+check(7);
+check(5);
+check(8);
