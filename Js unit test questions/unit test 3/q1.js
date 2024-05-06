@@ -4,3 +4,12 @@
 // output:1
 // input:[10,23,46,81,100],34
 // output:-1
+
+let array=[1,2,3,4,5,6];
+
+
+function check(num){
+   let ans=array.indexOf(num);
+   console.log(ans);
+}
+check(10);
