@@ -7,3 +7,10 @@ let odd = array.filter((ele) => {
 });
 
 console.log(odd);
+
+
+let even=array.filter((ele) =>{
+    return ele% 2===0;
+})
+ 
+console.log(even);
