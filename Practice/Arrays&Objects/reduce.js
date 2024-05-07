@@ -9,8 +9,3 @@ console.log(result);
 
 //multiplication
 
-let multi=arr.reduce((res,ele)=> {
-    console.log(ele)
-    return res*ele;
-})
-console.log(multi);
