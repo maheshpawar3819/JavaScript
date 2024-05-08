@@ -6,4 +6,3 @@ let filterbylength=numbers.filter((ele) => {
     return ele.length>2;
 })
 console.log(filterbylength);
-
