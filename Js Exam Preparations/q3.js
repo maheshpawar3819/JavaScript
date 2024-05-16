@@ -3,10 +3,20 @@
 // Input : a = 5, b = 2
 // Output:1
 
-
-function remainder(a,b){
-    let divide=Math.floor(a/b);
-    let remain=a-divide*b;
-    return remain;
+function remainder(a, b) {
+  let divide = Math.floor(a / b);
+  let remain = a - divide * b;
+  return remain;
 }
-console.log(remainder(4,2));
+console.log(remainder(4, 2));
+
+//with arrow function
+
+let checkr = (a, b) => {
+  let divide = Math.floor(a / b);
+  let remain = a - divide * b;
+  return remain;
+};
+
+console.log(checkr(10,3));
+
