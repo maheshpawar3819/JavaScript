@@ -7,3 +7,11 @@ let lastele=(array) => {
 }
 
 console.log(lastele(array));
+
+//Delete first element from the array
+
+let firstele=(array) => {
+    return array.shift();
+}
+
+console.log(firstele(array));
