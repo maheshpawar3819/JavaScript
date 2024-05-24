@@ -1,41 +1,38 @@
-
-let num=4;
-let str=""
-
-for(let i=1;i<=num;i++){
-    for(let j=1;j<=num;j++){
-        if(i===1 || i===num) str+="*"
-        else if(j===1 || j===num){
-            str+="*";
-        }else{
-            str+=" ";
-        }
+let num = 4;
+let str = "";
+/*
+for (let i = 1; i <= num; i++) {
+  for (let j = 1; j <= num; j++) {
+    if (i === 1 || i === num) str += "*";
+    else if (j === 1 || j === num) {
+      str += "*";
+    } else {
+      str += " ";
     }
-    str+="\n";
+  }
+  str += "\n";
 }
 console.log(str);
+*/
 
+//with using function
 
+function squre(number) {
+    let star="";
+    for(let i=0;i<=number;i++){
+        for(let j=0;j<=number;j++){
+            if(i===0 || i===number){
+                star+="*";
+            }else if(j===0 || j===number){
+                star+="*";
+            }
+            else{
+                star+=" ";
+            }
+        }
+        star+="\n";
+    }
+     return star;
+}
 
-
-
-
-
-// let rows = 5;
-
-// let pattern = "";
-
-// for (let n = 1; n <= rows; n++) {
-//   for (let num = 1; num <= 5; num++) {
-//     if (n == 1 || n == rows) pattern += "*";
-//     else {
-//       if (num == 1 || num == 5) {
-//         pattern += "*";
-//       } else {
-//         pattern += " ";
-//       }
-//     }
-//   }
-//   pattern += "\n";
-// }
-// console.log(pattern);
+console.log(squre(5));
