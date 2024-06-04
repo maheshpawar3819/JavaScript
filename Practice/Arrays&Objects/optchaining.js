@@ -31,5 +31,5 @@ let array = [
 ];
 
 // console.log(array[2].edu.que.year)
- console.log(array[2]?.edu?.que?.year)
- console.log(array[3]?.edu?.year);
+console.log(array[2]?.edu?.que?.year);
+console.log(array[3]?.edu?.year);
