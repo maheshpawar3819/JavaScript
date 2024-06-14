@@ -3,10 +3,10 @@
 
 console.log("hii mahi");
 
-try{
-    console.log(a);
-}catch{
-    console.log("a was not define")
+try {
+  console.log(a);
+} catch {
+  console.log("a was not define");
 }
 
 console.log("hii pratik");
