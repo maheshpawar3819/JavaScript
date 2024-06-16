@@ -13,17 +13,16 @@ async function callapi() {
 
 callapi();
 
-
 //with using arrow function
- const apicall= async () => {
- try{
-    let response=await fetch("https://fakestoreapi.com/products/1");
-    let dt=await response.json();
+const apicall = async () => {
+  try {
+    let response = await fetch("https://fakestoreapi.com/products/1");
+    let dt = await response.json();
     console.log(dt);
- }catch (err){
+  } catch (err) {
     console.log(err);
- }
- console.log("i am arrow function")
-}
+  }
+  console.log("i am arrow function");
+};
 
 apicall();
