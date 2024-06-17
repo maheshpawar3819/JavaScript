@@ -6,4 +6,14 @@ const b=[...a];
 b.push(6);
 
 console.log(a);
-console.log(b);
+// console.log(b);
+
+function left(){
+    return console.log("left");
+}
+
+function right(){
+    return console.log("right");
+}
+
+left () || right()
