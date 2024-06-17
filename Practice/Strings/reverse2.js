@@ -6,6 +6,8 @@ function rev(stirng) {
     return reversestr;
 }
 
+console.log(rev("mahi"));
+
 if(rev("rececar")===string){
     console.log('given string is palendrome str');
 }else{

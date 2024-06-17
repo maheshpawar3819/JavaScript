@@ -51,3 +51,10 @@ Example: 153 :  1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153.
 23.JavaScript program to flatten this nested array into a single-dimensional array.
 <br>
 Add Mini Project Folder: in this folder store all mini project.
+
+#foders
+ 1-js exam preparation.
+ 2-js unit test questions.
+ 3-mini projects.
+ 4-quiz
+ 5-work
