@@ -8,4 +8,4 @@ function sum(nums){
 }
 
 var numbers=[1,2,3,4,5];
-console.log(`result : ${sum(numbers)}`);
+console.log(`result : ${sum(numbers)}`); //ans==> NaN
