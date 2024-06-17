@@ -9,3 +9,7 @@ function checkequal(a,b){
 }
 
 checkequal(0,"0");
+
+// let x=[..."Baby"];
+
+// console.log(x);
