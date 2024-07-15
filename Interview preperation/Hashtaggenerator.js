@@ -23,14 +23,12 @@ let addhashtag = (str) => {
     return false;
   }
 
-  //convert this string in to array
-  str = str.split(" ");
+  str = str.split(" "); //convert this string in to array
   str = str.map((ele) => {
-    return ele.replace(ele[0], ele[0].toUpperCase());
+    return ele.replace(ele[0], ele[0].toUpperCase()); //replace old string with captalized string
   });
 
-  //again this string array convert in strings
-  return (str = `#${str.join("")}`);
+  return (str = `#${str.join("")}`); //again this string array convert in strings
 };
 
 const finalresult = addhashtag(string);
