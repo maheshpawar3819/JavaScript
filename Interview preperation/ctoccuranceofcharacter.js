@@ -12,9 +12,11 @@
 */
 
 /*
-Generalsolution
+Solution 1 :
 
 let countcharacter = (string, character) => {
+  string = string.toLowerCase();
+  character = character.toLowerCase();
   let count = 0;
   for (let i = 0; i < string.length; i++) {
     if (string[i] === character) {
@@ -24,7 +26,24 @@ let countcharacter = (string, character) => {
   return count;
 };
 
-finalresult = countcharacter("mahesh dhanaji pawar", "a");
+finalresult = countcharacter("mahesH", "h");
 console.log(finalresult);
 
 */
+
+// Solution 2 :
+
+const coutnChar = (word, char) => {
+  word = word.toLowerCase();
+  char = char.toLowerCase();
+
+  totalcount = word.split("").reduce((accum, curchar) => {
+    if (curchar === char) {
+      accum++;
+    }
+    return accum;
+  }, 0);
+  return totalcount;
+};
+
+console.log(coutnChar("mahiiI", "I"));
