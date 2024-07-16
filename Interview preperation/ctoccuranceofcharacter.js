@@ -47,3 +47,5 @@ const coutnChar = (word, char) => {
 };
 
 console.log(coutnChar("mahiiI", "I"));
+
+
