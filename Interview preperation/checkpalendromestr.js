@@ -5,8 +5,9 @@
 */
 
 const isPalindrome = (string) => {
-  string = string.toLowerCase().replace(/\W/g,"");
-  let reverse=string.split("").reverse().join("");
+    //it will convert word in lowercase and regular expression will remove blanke space and coma;
+  string = string.toLowerCase().replace(/\W/g, "");
+  let reverse = string.split("").reverse().join("");
   return reverse === string ? true : false;
 };
 console.log(isPalindrome("A man, A plan , A canal , panama"));
