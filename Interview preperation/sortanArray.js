@@ -13,6 +13,9 @@
 
 */
 
+/*
+solution 1
+
 let array = [2, 1, 4, 3, 9, 10, 12];
 
 const sortAscending = (arr) => {
@@ -21,3 +24,6 @@ const sortAscending = (arr) => {
 };
 
 console.log(sortAscending(array));
+
+*/
+
