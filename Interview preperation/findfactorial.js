@@ -12,7 +12,7 @@
 */
 
 // solution 1:
-
+/*
 const findfactorial = (number) => {
   let fact = 1;
   for (let i = number; i > 1; i--) {
@@ -23,3 +23,22 @@ const findfactorial = (number) => {
 
 console.log(findfactorial(5));
 console.log(findfactorial(6));
+
+*/
+
+// Solution 2 : using recursion way
+
+function factorial(num) {
+  if (num === 0) {
+    return 1;
+  } else {
+    return num * factorial(num - 1);
+  }
+}
+
+console.log(factorial(0));
+console.log(factorial(1));
+console.log(factorial(2));
+console.log(factorial(3));
+console.log(factorial(4));
+console.log(factorial(5));
