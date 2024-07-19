@@ -12,15 +12,27 @@ Note :
         -function should return a true only if all elements in array one are equal to corresponding elements in array 2
 */
 
+// const arrayEqual = (arr1, arr2) => {
+//   if (arr1.length !== arr2.length) {
+//     return false;
+//   }
+
+//   //introducing new method every()
+//   return arr1.every((currentvalue, index) => {
+//     return currentvalue === arr2[index];
+//   });
+// };
+
 const arrayEqual = (arr1, arr2) => {
   if (arr1.length !== arr2.length) {
     return false;
   }
-
-  //introducing new method every()
-  return arr1.every((currentvalue, index) => {
-    return currentvalue === arr2[index];
-  });
+  for (let i = 0; i < arr1.length; i++) {
+    if (arr1[i] !== arr2[i]) {
+      return false;
+    }
+  }
+  return true;
 };
 
 console.log(arrayEqual([1, 2, 3], [1, 2, 3]));
