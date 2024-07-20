@@ -11,6 +11,7 @@
             the output will be sum of all digits in the input number
 
 */
+/*
 
 const sum = (num) => {
   //convert number in to array and split the number into array elements
@@ -22,3 +23,20 @@ const sum = (num) => {
 };
 
 console.log(sum(1233));
+console.log(sum(12345));
+
+*/
+
+//try to without converting string
+
+let sum = (num) => {
+  let sum = 0;
+  while (num) {
+    sum += num % 10;
+    num = Math.floor(num / 10);
+  }
+  return sum;
+};
+
+console.log(sum(234));
+console.log(sum(12345));
