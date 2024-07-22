@@ -10,6 +10,7 @@
 
 // Solution 1:
 
+
 let removeduplicate = (array) => {
   let result = new Set(array);
   let final = [...result];
@@ -19,3 +20,23 @@ let removeduplicate = (array) => {
 removeduplicate([1, 2, 3, 4, 5, 6, 4, 3]);
 removeduplicate([]);
 removeduplicate([10,50,10,7,88,55,10,7]);
+
+
+
+// Solution 2 : with using filter method
+
+// let removeduplicate=(arr) => {
+//     let seen={};
+//     return arr.filter((ele) => {
+//         if(seen[ele]){
+//             return false;
+//         }else{
+//             seen[ele]=true;
+//             return true;
+//         }
+//     })
+// }
+
+// console.log(removeduplicate([1, 2, 3, 4, 5, 6, 4, 3]));
+// console.log(removeduplicate([]));
+// console.log(removeduplicate([10,50,10,7,88,55,10,7]));
