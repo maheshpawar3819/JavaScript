@@ -15,3 +15,18 @@ const sumofsquare = (arr) => {
 
 sumofsquare([1, 2, 3]);
 sumofsquare([2, 4, 3]);
+
+// solution 2 : using for of loop
+
+const sumofsquare2 = (array) => {
+  let sum = 0;
+
+  for (const ele of array) {
+    sum = sum + ele * ele;
+  }
+
+  return console.log(sum);
+};
+
+sumofsquare2([2, 2, 2]);
+sumofsquare2([2, 4, 2]);
