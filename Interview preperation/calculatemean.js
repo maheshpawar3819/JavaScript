@@ -1,6 +1,9 @@
 //Question : write a function calculatethemean that takes an array of a numbers as input and retun the mean(average) of those numbers.
 
 /*
+
+ Mean : average of a set of the numbers. the numeric value that represents that center of the collenction of the number.
+
  Constraints : 
                 -the input array may be empty if the input array is empty , the function should retun 0.
 
