@@ -11,7 +11,7 @@ console.log(findmaxn([1,2,36,4,89,1000]));
 
 */
 
-//Solution 2: for using for loop
+//Solution 2: using for loop
 
 const findmaxn = (arr) => {
   let max = 0;
