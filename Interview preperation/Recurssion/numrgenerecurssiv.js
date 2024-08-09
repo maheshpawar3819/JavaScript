@@ -8,9 +8,9 @@
 */
 
 const numrangeRecurssive = (a, b, arr = []) => {
-  if(a<=b){
+  if (a <= b) {
     arr.push(a);
-    return numrangeRecurssive(a+1,b,arr);
+    return numrangeRecurssive(a + 1, b, arr);
   }
   return arr;
 };
