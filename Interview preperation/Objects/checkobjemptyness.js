@@ -4,16 +4,26 @@
 
 //Task impliment the function usign javascript and return a message indicating wether the object is empty or not;
 
-// Solution 1: 
+// Solution 1:
 
-const checkObjempty=(obj) => {
-  for(let key in obj){
-    if(obj.hasOwnProperty(key)){
-        return `given object is not a empty`
-    }
+// const checkObjempty=(obj) => {
+//   for(let key in obj){
+//     if(obj.hasOwnProperty(key)){
+//         return `given object is not a empty`
+//     }
+//   }
+//   return `given object is empty`
+// }
+
+// console.log(checkObjempty({name:"mahesh",age:20}));
+// console.log(checkObjempty({}));
+
+const checkObjempty = (obj) => {
+  if (Object.keys(obj).length === 0) {
+    return `it is empty object`;
+  } else {
+    return `it was not empty object`;
   }
-  return `given object is empty`
-}
-
-console.log(checkObjempty({name:"mahesh",age:20}));
+};
+console.log(checkObjempty({ name: "Aditya", age: 55 }));
 console.log(checkObjempty({}));
