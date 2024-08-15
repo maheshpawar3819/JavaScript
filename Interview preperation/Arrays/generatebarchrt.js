@@ -12,6 +12,8 @@ output :
        4: **
 */
 
+// Solution 1:
+/*
 const generateBarChart = (arr) => {
   let newarr = arr.map((ele, index) => {
     let star = "";
@@ -20,8 +22,23 @@ const generateBarChart = (arr) => {
       star += "*";
       number++;
     }
-    return `${index+1}: ${star}`;
+    return `${index + 1}: ${star}`;
   });
   console.log(newarr.join("\n"));
 };
 generateBarChart([5, 3, 9, 2]);
+*/
+
+//Solution 2 :
+
+const generateBarChart2 = (arr) => {
+  return arr
+    .map((ele, index) => {
+      return `${index + 1}: ${"*".repeat(ele)}`;
+    })
+    .join("\n");
+};
+
+console.log(generateBarChart2([1,2,3,4,5,6]));
+console.log(generateBarChart2([1,5,100,7,12,8]));
+
