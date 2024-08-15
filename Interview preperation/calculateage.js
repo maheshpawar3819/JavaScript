@@ -10,21 +10,24 @@ Requirements :
             -The output should be age in whole years.
 */
 
- const calculateAge=(birthdate) => {
-    let todaydate=new Date();
-    birthdate=new Date(birthdate);
+const calculateAge = (birthdate) => {
+  let todaydate = new Date();
+  birthdate = new Date(birthdate);
 
-    let age=todaydate.getFullYear() -birthdate.getFullYear();
-    // console.log(age)
+  let age = todaydate.getFullYear() - birthdate.getFullYear();
+  // console.log(age)
 
-    let monthDiff=todaydate.getMonth() - birthdate.getMonth();
-    // console.log(monthDiff);
+  let monthDiff = todaydate.getMonth() - birthdate.getMonth();
+  // console.log(monthDiff);
 
-    if(monthDiff<0 || monthDiff===0 && todaydate.getDate() <birthdate.getDate()){
-        age--
-    }
-    return age;
- }
+  if (
+    monthDiff < 0 ||
+    (monthDiff === 0 && todaydate.getDate() < birthdate.getDate())
+  ) {
+    age--;
+  }
+  return age;
+};
 
- console.log(calculateAge("2002-07-25"));
- console.log(calculateAge("1972-05-06"));
+console.log(calculateAge("2002-07-25"));
+console.log(calculateAge("1972-05-06"));
