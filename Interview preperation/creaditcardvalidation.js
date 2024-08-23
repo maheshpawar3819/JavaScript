@@ -18,20 +18,25 @@ const validateCreaditCard = (str) => {
     revNum = revNum + str[i];
   }
   //Step 2 : Double every second digit
-  let doubleNum = revNum.split("").map((currDigit, index) => {
-    if (index % 2 != 0) {
-      currDigit = currDigit * 2;
-      //Step 3 : Subtract 8 from Numbers Higher Than 9;
-      if (currDigit > 9) {
-        currDigit = currDigit - 9;
-      } else {
-        currDigit = currDigit;
+  let doubleNum = revNum
+    .split("")
+    .map((currDigit, index) => {
+      if (index % 2 != 0) {
+        currDigit = currDigit * 2;
+        //Step 3 : Subtract 8 from Numbers Higher Than 9;
+        if (currDigit > 9) {
+          currDigit = currDigit - 9;
+        } else {
+          currDigit = currDigit;
+        }
       }
-    }
-    return currDigit;
-    //Step 4 : add all digits together (sum of all digits) used method chaining
-  }).reduce((accum,currElem) => accum+Number(currElem),0);
-  return console.log(doubleNum);
+      return currDigit;
+      //Step 4 : add all digits together (sum of all digits) used method chaining
+    })
+    .reduce((accum, currElem) => accum + Number(currElem), 0);
+
+  //Step 5 : check the total sum is divisible by 10 if it is divisible then number is valid other wise not valid(false);
+  return doubleNum % 10 === 0;
 };
 
-validateCreaditCard("4539 1488 0343 6467");
+console.log(validateCreaditCard("4539 1488 0343 6467"));
