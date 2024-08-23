@@ -7,3 +7,14 @@ Requirements:
             -the function should retrun true if the number is valid according to the Luhn algorithm, and false otherwise.
             -Ensure the function can handle numbers as strings,which may include spaces and dashes.
 */
+
+const validateCreaditCard=(str) => {
+    //Step 1 : Reverse the digit
+    let revNum="";
+    for(let i=str.length-1;i>=0;i--){
+        revNum=revNum+str[i];
+    }
+    return console.log(revNum)
+}
+
+validateCreaditCard("4539 1488 0343 6467");
