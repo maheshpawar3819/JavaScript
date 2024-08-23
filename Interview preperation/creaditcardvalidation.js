@@ -18,13 +18,19 @@ const validateCreaditCard = (str) => {
     revNum = revNum + str[i];
   }
   //Step 2 : Double every second digit
-  let doubleNum=revNum.split("").map((currDigit,index) => {
-    if(index%2 != 0){
-        currDigit=currDigit*2;
+  let doubleNum = revNum.split("").map((currDigit, index) => {
+    if (index % 2 != 0) {
+      currDigit = currDigit * 2;
+      //Step 3 : Subtract 8 from Numbers Higher Than 9;
+      if (currDigit > 9) {
+        currDigit = currDigit - 9;
+      } else {
+        currDigit = currDigit;
+      }
     }
     return currDigit;
-  })
-  return console.log(doubleNum)
+  });
+  return console.log(doubleNum);
 };
 
 validateCreaditCard("4539 1488 0343 6467");
