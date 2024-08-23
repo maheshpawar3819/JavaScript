@@ -29,7 +29,8 @@ const validateCreaditCard = (str) => {
       }
     }
     return currDigit;
-  });
+    //Step 4 : add all digits together (sum of all digits) used method chaining
+  }).reduce((accum,currElem) => accum+Number(currElem),0);
   return console.log(doubleNum);
 };
 
