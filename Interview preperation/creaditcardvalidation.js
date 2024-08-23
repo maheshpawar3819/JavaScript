@@ -17,7 +17,14 @@ const validateCreaditCard = (str) => {
   for (let i = str.length - 1; i >= 0; i--) {
     revNum = revNum + str[i];
   }
-  return console.log(revNum);
+  //Step 2 : Double every second digit
+  let doubleNum=revNum.split("").map((currDigit,index) => {
+    if(index%2 != 0){
+        currDigit=currDigit*2;
+    }
+    return currDigit;
+  })
+  return console.log(doubleNum)
 };
 
 validateCreaditCard("4539 1488 0343 6467");
