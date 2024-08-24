@@ -40,3 +40,4 @@ const validateCreaditCard = (str) => {
 };
 
 console.log(validateCreaditCard("4539 1488 0343 6467"));
+console.log(validateCreaditCard("8273 1232 7352 0569"));
