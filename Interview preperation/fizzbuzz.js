@@ -26,3 +26,4 @@ const fizzBuzz = (num1, num2) => {
   return result;
 };
 console.log(fizzBuzz(1, 5));
+console.log(fizzBuzz(14, 20));
