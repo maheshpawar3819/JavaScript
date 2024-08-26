@@ -13,10 +13,16 @@ const checkMobileNumber = (number) => {
     /^(?:(?:\+|0{0,2})91(\s*|[\-])?|[0]?)?([6789]\d{2}([ -]?)\d{3}([ -]?)\d{4})$/.test(
       number
     );
-  return check;
+  if (check) {
+    return console.log("Valid Mobile number:", number);
+  } else {
+    return console.log("The given number is not a valid Mobile number", number);
+  }
+  //   return check;
 };
 
-console.log(checkMobileNumber("7739430288"));
-console.log(checkMobileNumber("1739430288"));
-console.log(checkMobileNumber("+91-9883443344"));
-console.log(checkMobileNumber("+91-9850785009"));
+checkMobileNumber("7739430288");
+checkMobileNumber("1739430288");
+checkMobileNumber("+91-9883443344");
+checkMobileNumber("+91-9850785009");
+checkMobileNumber("5078459575");
