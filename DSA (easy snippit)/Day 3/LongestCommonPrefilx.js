@@ -30,7 +30,7 @@ function LongestCommonPrefix(words) {
       }
     }
   }
-  return words[0];
+  return words[0];k
 }
 
 console.log(LongestCommonPrefix(words));
