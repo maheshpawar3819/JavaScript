@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delete Element</title>
+  </head>
+  <body>
+    <input type="text" name="" id="position" placeholder="Enter Position" />
+    <button onclick="removeEl()">Remove Element</button>
+    <script>
+      function removeEl() {
+        let data = [10, 20, 30, 40, 50];
+        let position = document.getElementById("position").value;
+        position = parseInt(position);
+        for (let i = position; i <= data.length - 1; i++) {
+          data[i] = data[i + 1];
+        }
+        data.length = data.length - 1;
+        return console.log(data);
+      }
+    </script>
+  </body>
+</html>
