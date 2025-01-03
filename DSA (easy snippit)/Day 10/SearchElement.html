@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" placeholder="Enter the number" id="num" />
+    <button onclick="findEle()">Submit</button>
+
+    <script>
+      function findEle() {
+        let data = [10, 20, 30, 40, 50, 60, 70];
+        let number = document.getElementById("num").value;
+        number = parseInt(number);
+        let index;
+        for (let i = 0; i <= data.length - 1; i++) {
+          if (data[i] == number) {
+            index = i;
+            break;
+          }
+        }
+
+        if (index == undefined) {
+          alert("given number is not found in data");
+        } else {
+          alert(index);
+        }
+      }
+    </script>
+  </body>
+</html>
